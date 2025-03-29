@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(88, 174, 188);
+}
+.box {
+    background-color: black;
+    color: rgb(240, 249, 181);
+    border: 1px solid rgba(239, 231, 84, 0.918);
+    padding: 10px;
+    font: bold 15px monospace;
+    letter-spacing: 4px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+} 
+
+#input {
+    height:10px;
+    width:300px;
+}
+#code {
+    height:550px;
+    width: 500px;
+}
+
+
