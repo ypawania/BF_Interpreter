@@ -6,15 +6,24 @@
     </head>
 
     <body>
-        <h1>Esoteric Language Interpreter</h1>
+        <h1 style="text-align:center;">Esoteric Language Interpreter</h1>
         <div class="container">        
             <label for="code"></label>
             <textarea autofocus class="box" id="code" placeholder="Code"></textarea>            
-            <div>
-                <input type="text" id="input" class="box" placeholder="input">
+            <div id="rightBox">
+                <input style="width: 400px;" type="text" id="input" class="box" placeholder="input">
                 <div id="output" class="box">hello world</div>
-            </div>
-            
+                <div id = "instructions">
+                    brain is an esoteric programmming language. It has only 8 keywords: <br>
+                    <ul>
+                        <li>< and > Move the pointer to the left and right</li>
+                        <li>+ and - increment and decrement the pointer by 1</li>
+                        <li>. and , are for IO. A period will output the character with the ASCII value of the active cell and the comma will input the opposite</li>
+                        <li>[ and ] are control flow operators. The code between them is executed as long the value of the active cell is not 0 when the closing bracket is evaluated</li>
+                    </ul>                    
+                </div>
+                <button id="run">Run</button>
+            </div>            
         </div>
     </body>
 </html>

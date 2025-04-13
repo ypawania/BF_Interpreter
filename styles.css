@@ -16,14 +16,18 @@ body {
     justify-content:center;
     align-items: flex-start;
 } 
-
-#input {
-    height:10px;
-    width:300px;
+#rightBox {
+    width:400px;
 }
+
 #code {
     height:550px;
     width: 500px;
 }
 
+#instructions {
+    background-color:rgb(235, 247, 186);
+    color: black;
+
+}
 
